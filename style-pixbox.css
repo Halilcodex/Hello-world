@@ -1,0 +1,744 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    color: darkgrey;
+    position: relative;
+}
+#last{
+    position: absolute;
+    width: 1519px;
+    height:359px;
+    bottom: 0;
+    background-color: white;
+    margin: 0;
+}
+.shape1{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: #ff5722;
+    bottom: 0;
+    left: 40%;
+    clip-path: polygon(50% 50%, 0% 100%, 100% 100%);
+}
+.shape2{
+    position: absolute;
+    width: 200px;
+    height: 500px;
+    background-image: linear-gradient(200deg,#4527a0,#90caf9 );
+    bottom: 0;
+    right: 0;
+    clip-path: polygon(100% 50%, 0% 100%, 100% 100%);
+}
+.shape3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #4527a0;
+    left: -150px;
+    bottom: 0;
+}
+#sec1{
+    background-color:rgb(218,227,243);
+    overflow: hidden;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    background: rgb(218,227,243);
+}
+
+.logo{
+    float: left;
+}
+
+.wrapper nav{
+    float: right;
+    line-height: 70px;
+}
+
+.wrapper nav li{
+    display: inline-block;
+    margin-right: 10px;
+    line-height: normal;
+    padding: 5px;
+    font-size: 10px;
+    color: black;
+}
+
+.wrapper nav li:last-child{
+    background-image: linear-gradient(to bottom right, #d32f2f, #ef9a9a);
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 7px 30px;
+    color: white;
+}
+
+.wrapper:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content{
+    max-width: 1000px;
+    margin: auto;
+    padding: 5px;
+    position: relative;
+}
+
+#left1 h3{
+    white-space: pre;
+    color: gray;
+    font-weight: 100;
+    word-spacing: 3px;
+    font-size: 30px;
+}
+
+#left1 span{
+    white-space: pre;
+    color: black;
+    font-weight: 100;
+    word-spacing: 3px;
+}
+input{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 7px 20px;
+    background-color: white;
+    font-size: 10px;
+}
+
+#left1{
+    float: left;
+    width: 50%;
+    #padding: 5px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+#right1{
+    float: right;
+    margin-top: 30px;
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.rec4{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    background-color: #ffb300;
+    left:15%;
+    top: 40%
+}
+
+.rec1{
+    height:320px;
+    width: 180px;
+    background-image: linear-gradient(#ff8a65,#ff7043);
+    position: absolute;
+    left: 30%;
+}
+
+.tri3{
+    width: 180px;
+    height: 200px;
+    background-color: #ff8a65 ;
+    position: absolute;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    left: 30%;
+    top: 37.5%
+}
+
+#right1>img{
+    position: absolute;
+    left: 60.5%;
+    top: 1%;
+    opacity: 0.2;
+}
+
+#right1 h4{
+    position: absolute;
+    white-space: pre;
+    font-weight: 100;
+    left: 20%;
+    top: 72%;
+    letter-spacing: 2px;
+    color: darkgray;
+}
+
+#right1 h4 span{
+    color: white;
+}
+.rec2{
+    height:320px;
+    width: 100px;
+    background-image: linear-gradient(#5c6bc0,#7e57c2);
+    position: absolute;
+    float: right;
+    right: 14%;
+}
+
+.rec3{
+    height: 320px;
+    width: 20px;
+    background-color:rgb(218,227,243);
+    position: absolute;
+    right: 10%;
+    overflow: hidden;
+    z-index: 1
+}
+
+.poly{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(#ff5722,#ffccbc);
+    position: absolute;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    right: 4%;
+    top: 10%;
+}
+
+.tri2{
+    height: 140px;
+    width: 140px;
+    background-image: linear-gradient(#b39ddb ,#5c6bc0);
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    top: 35%;
+    right:11%
+}
+
+.circle2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right,#3f51b5,#5c6bc0);
+    position: absolute;
+    top: 70%;
+    right: 1%;
+    #clip-path: circle(58.3% at 95% 41%);
+}
+.bar7{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ff8a65;
+    left: 56%;
+    top: 63%
+}
+
+.bar8{
+    position: absolute;
+    width: 50px;
+    height: 135px;
+    background-color: black;
+    right: 0
+}
+.bar9{
+    position: absolute;
+    width: 50px;
+    height: 135px;
+    background-color: black;
+    right: 0;
+    bottom: 0;
+}
+.bar10{
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    background-color: gray;
+    right: 4%;
+    opacity: 0.5;
+    
+}
+
+.rectangle1 {
+  height: 320px;
+  width: 50px;
+  background-color: black;
+  float: right;
+  #position: relative;
+  overflow: hidden;
+}
+
+#right1 p{
+    transform: rotate(-90deg);
+    color: white;
+    font-size: 11px;
+    padding: 5px;
+    position: absolute;
+    max-height: 20px;
+    width: 300px;
+    right:-26.1%;
+    top: 40%;
+}
+#right1 p span{
+    color: gray;
+    white-space: pre;
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+#sec2 h3{
+    text-align: center;
+    color: black;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#sec2{
+    position: relative;
+}
+/*
+#wrapper2{
+    width: 1000px;
+    height: 150px;
+    position: absolute;
+    top: 16.3%;
+}
+*/
+#sec2 p{
+    text-align: center;
+    font-size: 13px;
+}
+
+.rectangle2 {
+  display: inline-block;
+  float:left;
+  height: 150px;
+  width:120px;
+  background-color: black;
+}
+.tri4{
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    background-image: linear-gradient(#673ab7,#b39ddb);
+    clip-path: polygon(50% 0%, 100% 39%, 78% 39%, 21% 38%, 0% 38%);
+    top:44.8%
+}
+.tri5{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 33%;
+    background-image: linear-gradient(#ffb300,#fb8c00);
+    clip-path: polygon(0 0, 0% 100%, 51% 100%);
+}
+.rectangle2 p{
+    color: white;
+    font-size: 12px;
+}
+
+.rectangle3 {
+  display: inline-block;
+  float: right;
+  height: 150px;
+  width:120px;
+  background-color: rgb(218,227,243);
+}
+.rectangle3 p{
+    color: black;
+    font-size: 12px;
+}
+
+.star{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(#ffb300,#fb8c00);
+    top: 30%;
+    right: 4%;
+    clip-path: polygon(54% 0, 65% 31%, 98% 35%, 79% 61%, 82% 83%, 50% 80%, 21% 84%, 32% 57%, 2% 35%, 39% 35%);
+}
+.bar1{
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    background-color: white;
+    right: 12.3%;
+    top: 30%;
+}
+.bar2{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    background-color: white;
+    right: 1%;
+    top: 52.4%;
+}
+
+.rectangle4 {
+  display: inline-block;
+  height: 150px;
+  width:120px;
+  background-color: rgb(218,227,243);
+}
+.circle3{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    background-image: linear-gradient(#673ab7,#b39ddb);
+    right: 44%;
+    top:27.1%;
+    clip-path: circle(86.1% at 0 100%);
+}
+.bar3{
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    background-color: white;
+    right: 55.9%;
+    top: 27%;
+}
+.bar4{
+    position: absolute;
+    width: 127px;
+    height: 22px;
+    background-color: white;
+    right: 44%;
+    top: 52.2%;
+}
+.rectangle4 p{
+    color: black;
+    font-size: 12px;
+}
+
+.rectangle4 p:after{
+    content:"";
+    display: block;
+    clear:"both";
+}
+
+#left2{
+    float: left;
+    width: 35%;
+}
+
+#right2{
+    float: right;
+    width: 65%;
+}
+#right2 h2{
+    color: black;
+    font-weight: 100;
+}
+#right2 p{
+    text-align: left;
+    color: lightgrey;
+    margin-bottom: 50px;
+}
+#sec2:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+#sec3{
+    background-color:rgb(218,227,243);
+    padding-bottom: 70px
+}
+
+#sec3 h3{
+    text-align: center;
+    color: black;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#sec3 p{
+    text-align: center;
+    font-size: 13px;
+}
+
+#left3{
+    float: left;
+    width: 30%
+}
+
+.rectangle5 {
+  display: inline-block;
+  max-height: 250px;
+  width:80%;
+  background-color: black;
+  position: relative;
+}
+.circle1{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-image: linear-gradient(#d84315,#ff8a65);
+    margin-top:35%;
+    margin-bottom: 50%
+}
+#right3{
+    float: right;
+    width: 70%;
+    max-height:200px;
+    padding-bottom: 100px;
+}
+.rectangle6{
+    display: inline-block;
+    height: 150px;
+    width:100%;
+    background-color: white;
+}
+.rectangle7{
+    display: inline-block;
+    height: 150px;
+    width:48%;
+    background-color: white;
+    margin-top: 10px;
+}
+.rectangle8{
+    display: inline-block;
+    height: 150px;
+    width:48%;
+    background-color: white;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#right3 h4{
+    color: black;
+    font-weight: 100;
+    padding-left: 20px;
+}
+
+#right3 p{
+    font-size: 12px;
+    text-align: left;
+    width: 50%;
+    padding-left: 20px;
+}
+
+#sec3:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#sec4 h3{
+    text-align: center;
+    color: black;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#sec4 p{
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 80px;
+}
+
+#left4{
+    float: left;
+    width: 30%;
+}
+
+#right4{
+    float: right;
+    width: 70%
+}
+
+.rectangle9{
+    display: inline-block;
+    height: 200px;
+    width:49%;
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+.rectangle10{
+    display: inline-block;
+    height: 200px;
+    width:49%;
+    margin-left: 1%;
+    #background-color: black;
+    margin-bottom: 0px;
+}
+
+.rectangle11{
+    display: inline-block;
+    height: 200px;
+    width:49%;
+    #background-color: black;
+}
+
+.rectangle12{
+    display: inline-block;
+    height: 200px;
+    width:49%;
+    #background-color: black;
+    margin-left: 1%;
+}
+
+#right4 img{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    float:left;
+    padding: 5px;
+    border: 1px solid darkgrey;
+}
+#right4 h4{
+    float: left;
+    margin: 0px 15px 5px 25px;
+}
+#right4 p{
+    float: left;
+    text-align: left;
+    padding-left: 55px;
+}
+#sec4:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.bottom-logo{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 0 20%;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right,#7e57c2 ,#2979ff);
+    width: 100%;
+}
+
+.bars{
+    position: relative;
+    width: 20px;
+    height: 200px;
+    background-color: white;
+    z-index: 2;
+}
+
+.circle{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right,#3d5afe,#64b5f6);
+    position: absolute;
+    top: 10%;
+    left: -50px;
+    z-index: 1;
+}
+
+.rectangle13{
+    background-image: linear-gradient(100deg,#ffab91,#ff5722);
+    width: 650px;
+    height: 200px;
+    position: absolute;
+    right:15%;
+    bottom: 0%;
+    clip-path: polygon(0 63%, 57% 43%, 100% 100%, 0 100%);
+    
+}
+
+.tri1{
+    position: absolute;
+    background-image: linear-gradient(to right,#90caf9,#7e57c2);
+    width: 300px;
+    height: 300px;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    left: 25%;
+    bottom: -20%
+    
+}
+.rectangle14{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #90caf9;
+    left: 22%;
+    bottom:5%;
+    border: 1px solid #90caf9;
+    border-radius: 4px;
+    z-index: 2;
+}
+.rectangle14 p{
+    text-align: center;
+    margin-top: 7px;
+    font-weight: bold;
+    color: white;
+}
+
+#text{
+    position: absolute;
+    left: 45%;
+    color: white;
+}
+#text h4{
+    margin-bottom: 0;
+}
+#text p{
+    font-size: 6px;
+}
+
+#text input{
+    font-size: 6px;
+}
+/*
+<img src="smartlock2.jpg" alt="smartlock" width="30"/>
+<img src="ball.png" alt="ballicon" width="30"/>
+<img src="search.png" alt="searchicon" width="30"/>
+<img src="tabicon.png" alt="tabicon" width="30"/>
+<img src="updateicon.jpg" alt="updateicon" width="30"/>
+
+#sec6 img{
+    display: inline-block;
+    margin-left: 7.75%;
+    margin-right: 7.75%;
+    #float: left;
+}
+*/
+#icons{
+    width: 100%;
+}
+
+#sec7 nav>li{
+    #display: inline-block;
+    font-size: 8px;
+    margin-right: 15%;
+    float: left;
+    position: relative;
+    list-style-type: none;
+    color: black;
+    font-weight: bold;
+}
+
+#sec7:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#sec7 nav>li:nth-child(5){
+    margin-right: 0;
+    list-style: decimal;
+    list-style-image: url(phoneicon.png);width:"px"
+}
+
+#sec7 nav>li:nth-child(2){
+    margin-right: 8% 
+    position: absolute;
+    top: 0%;
+}
+
+ul{
+    list-style-type: none;
+    #position: absolute;
+    padding: 0;
+    color: gray;
+    font-weight: 100;
+}
